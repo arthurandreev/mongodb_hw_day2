@@ -7,7 +7,7 @@ QuoteView.prototype.addQuote = function(quote) {
   this.render(quote);
 }
 
-QuoteView.prototype.clear = function(quote) {
+QuoteView.prototype.clear = function() {
   this.quotes = [];
   const ul = document.querySelector('#quotes');
   ul.innerHTML = '';
